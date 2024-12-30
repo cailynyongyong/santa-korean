@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Talking Santa!</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      #c {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module" src="/santa.js"></script>
+    <canvas id="c"></canvas>
+    <div id="info"></div>
+    <div
+      id="message"
+      style="
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+        color: white;
+        font-family: 'Helvetica', 'Arial', sans-serif;
+      "
+    >
+      Click Santa to start a conversation. Click again to disconnect.
+    </div>
+  </body>
+</html>
