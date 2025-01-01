@@ -323,7 +323,6 @@ async function handleSantaClick() {
         agentId: "8pIREAnvxJTGn4LnNW8c", // Replace with your agent ID
         onMessage: (message) => {
           console.log("Agent says:", message.text);
-          alert(`Agent says: ${message.text}`); // Display the message
         },
         onConnect: () => console.log("Connected to ElevenLabs agent"),
         onDisconnect: () => console.log("Disconnected from agent"),
